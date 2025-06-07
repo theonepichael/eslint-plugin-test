@@ -1,0 +1,41 @@
+{
+  "name": "truthy-collections-test",
+  "version": "1.0.0",
+  "description": "Test project for eslint-plugin-no-truthy-collections",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/app.js",
+    "lint": "eslint src/ tests/ scripts/",
+    "lint:fix": "eslint src/ tests/ scripts/ --fix",
+    "test": "jest",
+    "migrate": "node scripts/migrate.js",
+    "seed": "node scripts/migrate.js seed"
+  },
+  "keywords": [
+    "node",
+    "api",
+    "test"
+  ],
+  "author": "Test Author",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.0.0",
+    "redis": "^4.6.0",
+    "lodash": "^4.17.21",
+    "axios": "^1.4.0",
+    "bcrypt": "^5.1.0",
+    "jsonwebtoken": "^9.0.0",
+    "joi": "^17.9.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-plugin-no-truthy-collections": "^1.0.3",
+    "@typescript-eslint/parser": "^6.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "typescript": "^5.0.0",
+    "jest": "^29.0.0",
+    "supertest": "^6.3.0"
+  }
+}

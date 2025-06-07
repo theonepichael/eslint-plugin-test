@@ -1,0 +1,15 @@
+[
+  {
+    "key": "ctrl+shift+l",
+    "command": "workbench.action.tasks.runTask",
+    "args": "ESLint: Lint All Files"
+  },
+  {
+    "key": "ctrl+shift+e",
+    "command": "eslint.executeAutofix"
+  },
+  {
+    "key": "ctrl+alt+l",
+    "command": "eslint.restart"
+  }
+]
